@@ -194,3 +194,7 @@ bindsym $mod+r mode "resize"
 # }
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+default_border pixel 0
+default_floating_border pixel 0
+for_window [class="^.*"] border pixel 0
