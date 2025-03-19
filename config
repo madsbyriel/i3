@@ -198,6 +198,6 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 bindsym $mod+Shift+o exec brightnessctl set 10%+
 bindsym $mod+Shift+i exec brightnessctl set 10%-
 
-default_border pixel 0
-default_floating_border pixel 0
-for_window [class="^.*"] border pixel 0
+default_border pixel 1
+default_floating_border pixel 1
+for_window [class="^.*"] border pixel 1
